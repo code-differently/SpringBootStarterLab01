@@ -1,5 +1,4 @@
-package com.codedifferently.phonebook.widgets.models;
-
+package com.codedifferently.phonebook.domain.widgets.models;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,9 +1,8 @@
-package com.codedifferently.phonebook.widgets.models;
+package com.codedifferently.phonebook.domain.widgets.models;
 
 import javax.persistence.*;
 import java.util.List;
 import java.util.Objects;
-import java.util.Set;
 
 @Entity
 public class Widget {

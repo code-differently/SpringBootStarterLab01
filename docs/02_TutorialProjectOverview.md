@@ -2,10 +2,15 @@ How the Spring Boot tutorial is split.
 
 # The domain for the chapters
 
-The next few chapters will cover a Widget service.
+The next few chapters will cover a Widget module in Spring Boot.
 
-The Widget service creates a RESTful service to Create, Read, Update and
-Delete todo instances. Each Todo instance has a:
+The Widget module creates a RESTful service to provide access to the C.R.U.D. methods expected:
+* Create 
+* Read 
+* Update
+* Delete 
+
+We are going to use this as an example to create a PhoneBook module. Each Widget instance has a:
 
 -   id: the generated ID of the Widget
 

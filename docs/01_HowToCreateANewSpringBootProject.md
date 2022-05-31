@@ -18,7 +18,7 @@ The most common method of setting up Spring boot are:
 
 5.  Click ***Generate Project*** and download the zip file, `lab.zip`
 
-6.  Unzip the file, move it to your dev folder and open the project in
+6.  Unzip the file, move it to your `~/dev` folder and open the project in
     IDE.
 
 Other options such as using a Spring Boot CLI or other IDEs exist, but

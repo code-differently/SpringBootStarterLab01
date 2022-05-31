@@ -4,9 +4,9 @@ Building the model and its unit tests
 
 The model consists of two entities that is managed by the service.  
 ⇒
-[Widget.java](../../phonebook/src/test/java/com/codedifferently/phonebook/widgets/models/Widget.java)  
+[Widget.java](../src/main/java/com/codedifferently/phonebook/domain/widgets/models/Widget.java)  
 ⇒
-[WidgetPart.java](../../phonebook/src/test/java/com/codedifferently/phonebook/widgets/models/WidgetPart.java)  
+[WidgetPart.java](../src/main/java/com/codedifferently/phonebook/domain/widgets/models/WidgetPart.java)  
 
 1.  Mark the object as an JPA entity  
 
@@ -33,7 +33,7 @@ The model consists of two entities that is managed by the service.
 The model is simply a few attributes, the test focuses on the equals,
 hashCode and the toString.  
 ⇒
-[WidgetTest.java](../../phonebook/src/test/java/com/codedifferently/phonebook/widgets/models/models/WidgetTest.java)
+[WidgetTest.java](../src/test/java/com/codedifferently/phonebook/domain/widgets/models/WidgetTest.java)
 
 1.  There are four `Widget` instances in the test.
 
@@ -61,9 +61,9 @@ hashCode and the toString.
 
     -   phoneNumbers(`List<phoneNumber>`).
 
-3.  Create an PhoneNumber object in the
-    \<your-lastname\>.training.spring.boot.lab package and create its
-    unit test.
+3.  Edit the PhoneNumber class in the
+    `com.codedifferently.phonebook.domain.phonebook.models` package and edit its
+    unit test in the testing folder.
 
 4.  The PhoneNumber contains the following fields:
 

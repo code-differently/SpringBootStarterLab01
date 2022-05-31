@@ -4,7 +4,7 @@ Building the **data access layer** (DAO) and its unit tests
 
 Spring Data JPA takes care of most of the data access layer.  
 ⇒
-[WidgetRepo.java](../../phonebook/src/test/java/com/codedifferently/phonebook/widgets/models/repos/WidgetRepo.java)
+[WidgetRepo.java](../src/main/java/com/codedifferently/phonebook/domain/widgets/repos/WidgetRepo.java)
 
 1.  Most CRUD operations are supplied by the parent interface
     `JpaRepository` from Spring
@@ -44,7 +44,7 @@ table and column names.
 
 ![Lab](images/labtime.png)
 
-1.  Create the lab methods(s):
+1.  Create the lab methods(s) in the `com.codedifferently.phonebook.domain.phonebook.repos.PhoneNumberRepo` interface:
 
     1.  `List<Person> findByLastName` - To do a search by last name. '''
 

@@ -8,15 +8,15 @@ a todo not found use case, common in `GET`s, `PUT`s and `DELETE`s.
 
 1.  Invalid ID  
     ⇒
-    [WidgetNotFoundException.java](../../phonebook/src/test/java/com/codedifferently/phonebook/widgets/models/exceptions/WidgetNotFoundException.java)
+    [WidgetNotFoundException.java](../src/main/java/com/codedifferently/phonebook/domain/widgets/exceptions/WidgetNotFoundException.java)
 
 # Exercise Lab
 
 ![Lab](images/labtime.png)
 
-1.  Create the lab exception(s):
+1.  In the `com.codedifferently.phonebook.domain.phonebook.exceptions` complete the lab exception(s):
 
-    1.  `PersonNotFoundException` - when searching for a non-existing
+    1.  `PhoneNumberNotFoundException` - when searching for a non-existing
         account id.
 
 | Prev                                                 | TOC                       | Next                                                 |

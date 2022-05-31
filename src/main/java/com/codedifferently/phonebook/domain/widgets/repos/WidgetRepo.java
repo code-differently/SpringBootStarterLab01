@@ -1,6 +1,6 @@
-package com.codedifferently.phonebook.widgets.repos;
+package com.codedifferently.phonebook.domain.widgets.repos;
 
-import com.codedifferently.phonebook.widgets.models.Widget;
+import com.codedifferently.phonebook.domain.widgets.models.Widget;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

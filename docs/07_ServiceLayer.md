@@ -21,14 +21,14 @@ flexibility in autowiring and testing.
 
 1.  Service Interface  
     ⇒
-    [WidgetService.java](../../phonebook/src/main/java/com/codedifferently/phonebook/widgets/services/WidgetService.java)  
+    [WidgetService.java](../src/main/java/com/codedifferently/phonebook/domain/widgets/services/WidgetService.java)  
 
     1.  This interface defines all the service methods that are publicly
         available.
 
 2.  Service Implementation  
     ⇒
-    [WidgetServiceImpl.java](../../phonebook/src/main/java/com/codedifferently/phonebook/widgets/services/WidgetServiceImpl.java)  
+    [WidgetServiceImpl.java](../src/main/java/com/codedifferently/phonebook/domain/widgets/services/WidgetServiceImpl.java)  
 
     1.  The Service implementation implements all the methods listed in
         the Service interface.
@@ -46,7 +46,7 @@ The service is tested with `@SpringBootTest`.
 
 1.  Test extending the abstract test setup  
     ⇒
-    [WidgetServiceTest.java](../../phonebook/src/test/java/com/codedifferently/phonebook/widgets/services/WidgetServiceTest.java)
+    [WidgetServiceTest.java](../src/test/java/com/codedifferently/phonebook/domain/widgets/services/WidgetServiceTest.java)
 
     1.  The `setUp()` method runs ***before each test method*** and adds
         a Mock implementation of the repository.
@@ -59,19 +59,20 @@ The service is tested with `@SpringBootTest`.
 
     4.  This test can thus run without a database.
 
-<div class="important">
 
-The mock mockWidgetRepo switches functionality ***when*** a matching
+
+>The mock mockWidgetRepo switches functionality ***when*** a matching
 condition is met. The `thenReturn` or `thenAnswer` provides a response
 that simulates the actual database action.
 
-</div>
+
 
 # Exercise Lab
 
 ![Lab](images/labtime.png)
 
-1.  Create the lab service layer and unit test. Standard CRUD operations
+In the `com.codedifferently.phonebook.domain.phonebook.services` package
+1.  Complete the `PhoneNumberServiceImpl` service layer and unit test. Standard CRUD operations
     on Account plus methods for:
 
     1.  Find By lastName, should return a list.

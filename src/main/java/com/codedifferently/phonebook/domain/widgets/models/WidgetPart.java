@@ -1,4 +1,4 @@
-package com.codedifferently.phonebook.widgets.models;
+package com.codedifferently.phonebook.domain.widgets.models;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

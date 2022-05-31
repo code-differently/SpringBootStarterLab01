@@ -14,7 +14,7 @@ interface is covered in more detail in a subsequent chapter.
 
 1.  Controller  
     ⇒
-    [WidgetController.java](../../phonebook/src/main/java/com/codedifferently/phonebook/widgets/controllers/WidgetController.java)
+    [WidgetController.java](../src/main/java/com/codedifferently/phonebook/domain/widgets/controllers/WidgetController.java)
 
     1.  The controller implementation is marked with a `@RestController`
         stereotype.
@@ -38,10 +38,10 @@ The controller is tested with @SpringBootTest.
 
 1.  Test extending the abstract test setup  
     ⇒
-    [TodoAPIContractTest.java](../../phonebook/src/test/java/com/codedifferently/phonebook/widgets/controllers/TodoAPIContractTest.java)
+    [WidgetControllerTest.java](../src/main/java/com/codedifferently/phonebook/domain/widgets/controllers/WidgetControllerTest.java)
 
     1.  This test extends from the **abstract** test class which adds a
-        **mock** implementation of the `TodoService` with a `@MockBean`
+        **mock** implementation of the `WidgetService` with a `@MockBean`
         annotation.
 
     2.  The `@MockBean` is a mockito utility present in the
@@ -50,15 +50,16 @@ The controller is tested with @SpringBootTest.
 
 2.  Abstract mock setup  
     ⇒
-    [BaseControllerTest.java](../../phonebook/src/test/java/com.codedifferently.phonebook/BaseControllerTest.java)
+    [BaseControllerTest.java](../src/test/java/com/codedifferently/phonebook/BaseControllerTest.java)
 
     1.  Abstract mock class (re-used in other tests)
 
 # Exercise Lab
 
+In the `com.codedifferently.phonebook.domain.phonebook.controllers` package
 ![Lab](images/labtime.png)
 
-1.  Create the lab responses and controller layers and appropriate unit
+1.  Complete the lab `PhoneNumberController` responses and controller layers and appropriate unit
     tests.
 
     1.  Cover the basic HTTP Error code responses shown in the sample.

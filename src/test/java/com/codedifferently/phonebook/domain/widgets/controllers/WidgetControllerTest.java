@@ -1,10 +1,10 @@
-package com.codedifferently.phonebook.widgets.controllers;
+package com.codedifferently.phonebook.domain.widgets.controllers;
 
 import com.codedifferently.phonebook.BaseControllerTest;
-import com.codedifferently.phonebook.widgets.exceptions.WidgetNotFoundException;
-import com.codedifferently.phonebook.widgets.models.Widget;
-import com.codedifferently.phonebook.widgets.models.WidgetPart;
-import com.codedifferently.phonebook.widgets.services.WidgetService;
+import com.codedifferently.phonebook.domain.widgets.exceptions.WidgetNotFoundException;
+import com.codedifferently.phonebook.domain.widgets.models.Widget;
+import com.codedifferently.phonebook.domain.widgets.models.WidgetPart;
+import com.codedifferently.phonebook.domain.widgets.services.WidgetService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

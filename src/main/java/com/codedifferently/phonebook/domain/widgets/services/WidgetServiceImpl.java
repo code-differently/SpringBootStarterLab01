@@ -1,8 +1,8 @@
-package com.codedifferently.phonebook.widgets.services;
+package com.codedifferently.phonebook.domain.widgets.services;
 
-import com.codedifferently.phonebook.widgets.exceptions.WidgetNotFoundException;
-import com.codedifferently.phonebook.widgets.models.Widget;
-import com.codedifferently.phonebook.widgets.repos.WidgetRepo;
+import com.codedifferently.phonebook.domain.widgets.exceptions.WidgetNotFoundException;
+import com.codedifferently.phonebook.domain.widgets.models.Widget;
+import com.codedifferently.phonebook.domain.widgets.repos.WidgetRepo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
